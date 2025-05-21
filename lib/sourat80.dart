@@ -1,0 +1,99 @@
+import 'package:coran_warch/sourat79.dart';
+import 'package:coran_warch/sourat81.dart';
+import 'package:flutter/material.dart';
+import 'main.dart';
+
+class Sourat80 extends StatefulWidget {
+
+  var nomSourat;
+  Sourat80(this.nomSourat);
+
+  @override
+  _Sourat80State createState() => _Sourat80State();
+}
+
+class _Sourat80State extends State<Sourat80> {
+
+  ScrollController _scrollController = new ScrollController();
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        appBar: AppBar(
+          leading: IconButton(
+            icon: Icon(Icons.arrow_back,color: Colors.white,),
+            onPressed: () {
+              Navigator.of(context).pop();
+              Navigator.push(context, MaterialPageRoute(builder: (context) => MyApp() ));
+            },
+          ),
+          title: Center(child: Text(widget.nomSourat, style: TextStyle(fontSize: 22, color: Colors.white,fontWeight: FontWeight.bold))
+
+          ),backgroundColor: Color(0xff002912),
+        ),
+        body: ListView(
+          controller: _scrollController,
+          children: <Widget>[
+            Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/80/1.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
+            Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/80/2.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
+            Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/80/3.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            )
+          ],
+        ),
+      floatingActionButtonLocation:
+      FloatingActionButtonLocation.centerDocked,
+      bottomNavigationBar: BottomAppBar(
+        color: Color(0xff002912),
+        //hasNotch: false,
+        child: new Row(
+          mainAxisSize: MainAxisSize.max,
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: <Widget>[
+            TextButton(
+              style: ButtonStyle(
+                foregroundColor: MaterialStateProperty.all<Color>(Colors.white),
+              ),
+              onPressed: () {
+                widget.nomSourat = "التكوير";
+                Navigator.of(context).pop();
+                Navigator.push(context, MaterialPageRoute(builder: (context) => Sourat81(widget.nomSourat)));
+              },
+              child: Text('التكوير', style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),),
+            ),
+            TextButton(
+              style: ButtonStyle(
+                foregroundColor: MaterialStateProperty.all<Color>(Colors.white),
+              ),
+              onPressed: () {
+                widget.nomSourat = "النازعات";
+                Navigator.of(context).pop();
+                Navigator.push(context, MaterialPageRoute(builder: (context) => Sourat79(widget.nomSourat)));
+              },
+              child: Text('النازعات',style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),),
+            )
+          ],
+        ),
+      ),
+    );
+  }
+}

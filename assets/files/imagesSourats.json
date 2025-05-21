@@ -1,0 +1,22 @@
+{
+  "total": 28,
+  "totalHits": 28,
+  "images": [
+    {
+      "id": 1,
+      "nomSourat": "fatiha",
+      "img_1": "fatiha_p1_1",
+      "img_2": "fatiha_p2_1"
+    },
+    {
+      "img1": "baqara_p1_1",
+      "img2": "fatiha_p2_1",
+      "img3": "baqara_p3_1",
+      "img4": "fatiha_p4_1",
+      "img5": "baqara_p5_1",
+      "img6": "fatiha_p6_1",
+      "img7": "baqara_p7_1",
+      "img8": "fatiha_p8_1"
+    }
+  ]
+}

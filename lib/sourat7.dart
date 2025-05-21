@@ -1,0 +1,506 @@
+import 'package:coran_warch/sourat6.dart';
+import 'package:coran_warch/sourat8.dart';
+import 'package:flutter/material.dart';
+import 'main.dart';
+
+class Sourat7 extends StatefulWidget {
+
+  var nomSourat;
+  Sourat7(this.nomSourat);
+
+  @override
+  _Sourat7State createState() => _Sourat7State();
+}
+
+class _Sourat7State extends State<Sourat7> {
+
+  ScrollController _scrollController = new ScrollController();
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        appBar: AppBar(
+          leading: IconButton(
+            icon: Icon(Icons.arrow_back,color: Colors.white,),
+            onPressed: () {
+              Navigator.of(context).pop();
+              Navigator.push(context, MaterialPageRoute(builder: (context) => MyApp() ));
+            },
+          ),
+          title: Center(child: Text(widget.nomSourat, style: TextStyle(fontSize: 22, color: Colors.white,fontWeight: FontWeight.bold))
+
+          ),backgroundColor: Color(0xff002912),
+        ),
+        body: ListView(
+          controller: _scrollController,
+          children: <Widget>[
+            Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/1.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
+            Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/2.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
+            Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/3.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/4.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
+            Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/5.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/6.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
+            Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/7.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/8.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
+            Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/9.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/10.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
+            Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/11.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/12.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
+            Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/13.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/14.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
+            Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/15.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/16.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
+            Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/17.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/18.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
+            Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/19.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/20.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
+            Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/21.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/22.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
+            Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/23.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/24.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
+            Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/25.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/26.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
+            Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/27.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
+            Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/28.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/29.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
+            Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/30.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/31.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
+            Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/32.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/33.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
+            Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/34.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/35.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
+            Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/36.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/37.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
+            Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/38.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/39.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
+            Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/40.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/41.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
+            Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/42.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/43.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
+            Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/44.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
+            Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/45.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/46.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/47.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/48.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/49.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/50.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/51.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/52.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/53.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/54.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/56.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/57.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/58.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),Container(
+              child: Card(
+                child: Image(
+                  image: AssetImage("https://raw.githubusercontent.com/adieng/coran_warsh/main/assets/images/sourats/7/59.webp"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            )
+          ],
+        ),
+      floatingActionButtonLocation:
+      FloatingActionButtonLocation.centerDocked,
+      bottomNavigationBar: BottomAppBar(
+        color: Color(0xff002912),
+        //hasNotch: false,
+        child: new Row(
+          mainAxisSize: MainAxisSize.max,
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: <Widget>[
+            TextButton(
+              style: ButtonStyle(
+                foregroundColor: MaterialStateProperty.all<Color>(Colors.white),
+              ),
+              onPressed: () {
+                widget.nomSourat = "الأنفال";
+                Navigator.of(context).pop();
+                Navigator.push(context, MaterialPageRoute(builder: (context) => Sourat8(widget.nomSourat)));
+              },
+              child: Text('الأنفال', style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),),
+            ),
+            TextButton(
+              style: ButtonStyle(
+                foregroundColor: MaterialStateProperty.all<Color>(Colors.white),
+              ),
+              onPressed: () {
+                widget.nomSourat = "الأنعام";
+                Navigator.of(context).pop();
+                Navigator.push(context, MaterialPageRoute(builder: (context) => Sourat6(widget.nomSourat)));
+              },
+              child: Text('الأنعام',style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),),
+            )
+          ],
+        ),
+      ),
+    );
+  }
+}

@@ -1,0 +1,696 @@
+{
+  "total": 115,
+  "totalSourats": 114,
+  "sourats": [
+    {
+      "numero": 1,
+      "nom": "الفاتحة",
+      "ayat": 7,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 2,
+      "nom": "البقرة",
+      "ayat": 286,
+      "lieu": "icon_medine"
+    },
+    {
+      "numero": 3,
+      "nom": "آل عمران",
+      "ayat": 200,
+      "lieu": "icon_medine"
+    },
+    {
+      "numero": 4,
+      "nom": "النساء",
+      "ayat": 176,
+      "lieu": "icon_medine"
+    },
+    {
+      "numero": 5,
+      "nom": "المائدة",
+      "ayat": 120,
+      "lieu": "icon_medine"
+    },
+    {
+      "numero": 6,
+      "nom": "الأنعام",
+      "ayat": 165,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 7,
+      "nom": "الأعراف",
+      "ayat": 206,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 8,
+      "nom": "الأنفال",
+      "ayat": 76,
+      "lieu": "icon_medine"
+    },
+    {
+      "numero": 9,
+      "nom": "التوبة",
+      "ayat": 129,
+      "lieu": "icon_medine"
+    },
+    {
+      "numero": 10,
+      "nom": "يونس",
+      "ayat": 109,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 11,
+      "nom": "هود",
+      "ayat": 123,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 12,
+      "nom": "يوسف",
+      "ayat": 111,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 13,
+      "nom": "الرعد",
+      "ayat": 43,
+      "lieu": "icon_medine"
+    },
+    {
+      "numero": 14,
+      "nom": "إبراهيم",
+      "ayat": 52,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 15,
+      "nom": "الحجر",
+      "ayat": 99,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 16,
+      "nom": "النحل",
+      "ayat": 128,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 17,
+      "nom": "الإسراء",
+      "ayat": 111,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 18,
+      "nom": "الكهف",
+      "ayat": 110,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 19,
+      "nom": "مريم",
+      "ayat": 98,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 20,
+      "nom": "طه",
+      "ayat": 135,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 21,
+      "nom": "الأنبياء",
+      "ayat": 112,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 22,
+      "nom": "الحج",
+      "ayat": 78,
+      "lieu": "icon_medine"
+    },
+    {
+      "numero": 23,
+      "nom": "المؤمنون",
+      "ayat": 118,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 24,
+      "nom": "النّور",
+      "ayat": 64,
+      "lieu": "icon_medine"
+    },
+    {
+      "numero": 25,
+      "nom": "الفرقان",
+      "ayat": 77,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 26,
+      "nom": "الشعراء",
+      "ayat": 227,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 27,
+      "nom": "النّمل",
+      "ayat": 93,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 28,
+      "nom": "القصص",
+      "ayat": 98,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 29,
+      "nom": "العنكبوت",
+      "ayat": 69,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 30,
+      "nom": "الرّوم",
+      "ayat": 60,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 31,
+      "nom": "لقمان",
+      "ayat": 34,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 32,
+      "nom": "السجدة",
+      "ayat": 30,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 33,
+      "nom": "الأحزاب",
+      "ayat": 73,
+      "lieu": "icon_medine"
+    },
+    {
+      "numero": 34,
+      "nom": "سبأ",
+      "ayat": 54,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 35,
+      "nom": "فاطر",
+      "ayat": 45,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 36,
+      "nom": "يس",
+      "ayat": 83,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 37,
+      "nom": "الصافات",
+      "ayat": 182,
+      "lieu": "icon_kaba",
+      "dossier" : "a_safaati"
+    },
+    {
+      "numero": 38,
+      "nom": "ص",
+      "ayat": 88,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 39,
+      "nom": "الزمر",
+      "ayat": 75,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 40,
+      "nom": "غافر",
+      "ayat": 85,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 41,
+      "nom": "فصّلت",
+      "ayat": 54,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 42,
+      "nom": "الشورى",
+      "ayat": 53,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 43,
+      "nom": "الزخرف",
+      "ayat": 89,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 44,
+      "nom": "الدّخان",
+      "ayat": 59,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 45,
+      "nom": "الجاثية",
+      "ayat": 37,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 46,
+      "nom": "الأحقاف",
+      "ayat": 35,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 47,
+      "nom": "محمد",
+      "ayat": 38,
+      "lieu": "icon_medine"
+    },
+    {
+      "numero": 48,
+      "nom": "الفتح",
+      "ayat": 29,
+      "lieu": "icon_medine"
+    },
+    {
+      "numero": 49,
+      "nom": "الحجرات",
+      "ayat": 18,
+      "lieu": "icon_medine"
+    },
+    {
+      "numero": 50,
+      "nom": "ق",
+      "ayat": 45,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 51,
+      "nom": "الذاريات",
+      "ayat": 60,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 52,
+      "nom": "الطور",
+      "ayat": 49,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 53,
+      "nom": "النجم",
+      "ayat": 62,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 54,
+      "nom": "القمر",
+      "ayat": 55,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 55,
+      "nom": "الرحمن",
+      "ayat": 78,
+      "lieu": "icon_medine"
+    },
+    {
+      "numero": 56,
+      "nom": "الواقعة",
+      "ayat": 96,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 57,
+      "nom": "الحديد",
+      "ayat": 29,
+      "lieu": "icon_medine"
+    },
+    {
+      "numero": 58,
+      "nom": "المجادلة",
+      "ayat": 22,
+      "lieu": "icon_medine"
+    },
+    {
+      "numero": 59,
+      "nom": "الحشر",
+      "ayat": 24,
+      "lieu": "icon_medine"
+    },
+    {
+      "numero": 60,
+      "nom": "الممتحنة",
+      "ayat": 13,
+      "lieu": "icon_medine"
+    },
+    {
+      "numero": 61,
+      "nom": "الصف",
+      "ayat": 14,
+      "lieu": "icon_medine"
+    },
+    {
+      "numero": 62,
+      "nom": "الجمعة",
+      "ayat": 11,
+      "lieu": "icon_medine"
+    },
+    {
+      "numero": 63,
+      "nom": "المنافقون",
+      "ayat": 11,
+      "lieu": "icon_medine"
+    },
+    {
+      "numero": 64,
+      "nom": "التغابن",
+      "ayat": 18,
+      "lieu": "icon_medine"
+    },
+    {
+      "numero": 65,
+      "nom": "الطلاق",
+      "ayat": 12,
+      "lieu": "icon_medine"
+    },
+    {
+      "numero": 66,
+      "nom": "التحريم",
+      "ayat": 12,
+      "lieu": "icon_medine"
+    },
+    {
+      "numero": 67,
+      "nom": "الملك",
+      "ayat": 30,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 68,
+      "nom": "القلم",
+      "ayat": 52,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 69,
+      "nom": "الحاقة",
+      "ayat": 52,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 70,
+      "nom": "المعارج",
+      "ayat": 44,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 71,
+      "nom": "نوح",
+      "ayat": 28,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 72,
+      "nom": "الجن",
+      "ayat": 28,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 73,
+      "nom": "المزّمّل",
+      "ayat": 20,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 74,
+      "nom": "المدّثر",
+      "ayat": 56,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 75,
+      "nom": "القيامة",
+      "ayat": 40,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 76,
+      "nom": "الإنسان",
+      "ayat": 31,
+      "lieu": "icon_medine"
+    },
+    {
+      "numero": 77,
+      "nom": "المرسلات",
+      "ayat": 50,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 78,
+      "nom": "النبأ",
+      "ayat": 50,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 79,
+      "nom": "النازعات",
+      "ayat": 46,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 80,
+      "nom": "عبس",
+      "ayat": 42,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 81,
+      "nom": "التكوير",
+      "ayat": 29,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 82,
+      "nom": "الانفطار",
+      "ayat": 19,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 83,
+      "nom": "المطفّفين",
+      "ayat": 36,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 84,
+      "nom": "الانشقاق",
+      "ayat": 25,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 85,
+      "nom": "البروج",
+      "ayat": 22,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 86,
+      "nom": "الطارق",
+      "ayat": 17,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 87,
+      "nom": "الأعلى",
+      "ayat": 19,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 88,
+      "nom": "الغاشية",
+      "ayat": 26,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 89,
+      "nom": "الفجر",
+      "ayat": 30,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 90,
+      "nom": "البلد",
+      "ayat": 20,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 91,
+      "nom": "الشمس",
+      "ayat": 15,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 92,
+      "nom": "الليل",
+      "ayat": 21,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 93,
+      "nom": "الضحى",
+      "ayat": 11,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 94,
+      "nom": "الشرح",
+      "ayat": 8,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 95,
+      "nom": "التين",
+      "ayat": 8,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 96,
+      "nom": "العلق",
+      "ayat": 19,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 97,
+      "nom": "القدر",
+      "ayat": 5,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 98,
+      "nom": "البينة",
+      "ayat": 8,
+      "lieu": "icon_medine"
+    },
+    {
+      "numero": 99,
+      "nom": "الزلزلة",
+      "ayat": 8,
+      "lieu": "icon_medine"
+    },
+    {
+      "numero": 100,
+      "nom": "العاديات",
+      "ayat": 11,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 101,
+      "nom": "القارعة",
+      "ayat": 11,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 102,
+      "nom": "التكاثر",
+      "ayat": 8,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 103,
+      "nom": "العصر",
+      "ayat": 3,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 104,
+      "nom": "الهمزة",
+      "ayat": 9,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 105,
+      "nom": "الفيل",
+      "ayat": 5,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 106,
+      "nom": "قريش",
+      "ayat": 4,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 107,
+      "nom": "الماعون",
+      "ayat": 7,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 108,
+      "nom": "الكوثر",
+      "ayat": 3,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 109,
+      "nom": "الكافرون",
+      "ayat": 6,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 110,
+      "nom": "النصر",
+      "ayat": 3,
+      "lieu": "icon_medine"
+    },
+    {
+      "numero": 111,
+      "nom": "المسد",
+      "ayat": 5,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 112,
+        "nom": "الإخلاص",
+      "ayat": 4,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 113,
+      "nom": "الفلق",
+      "ayat": 5,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 114,
+      "nom": "النّاس",
+      "ayat": 6,
+      "lieu": "icon_kaba"
+    },
+    {
+      "numero": 115,
+      "nom": "دعاء ختم القرآن ",
+      "ayat": "000"
+    }
+  ]
+}
