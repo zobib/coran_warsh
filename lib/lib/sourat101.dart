@@ -2,6 +2,9 @@ import 'package:coran_warch/sourat100.dart';
 import 'package:coran_warch/sourat102.dart';
 import 'package:flutter/material.dart';
 import 'main.dart';
+import 'package:coran_warch/douaKhatmoulkhouran.dart';
+import 'package:flutter_islamic_icons/flutter_islamic_icons.dart';
+import 'hizib_list.dart';
 
 class Sourat101 extends StatefulWidget {
 
@@ -13,6 +16,14 @@ class Sourat101 extends StatefulWidget {
 }
 
 class _Sourat101State extends State<Sourat101> {
+
+  bool _showMenu = false;
+
+  void _toggleMenu() {
+    setState(() {
+      _showMenu = !_showMenu;
+    });
+  }
 
   ScrollController _scrollController = new ScrollController();
 
@@ -52,6 +63,426 @@ class _Sourat101State extends State<Sourat101> {
             )
           ],
         ),
+
+            if (_showMenu)
+              Positioned(
+                bottom: 0, // Collé à la bottom navigation bar
+                left: 0,
+                right: 0,
+                child: Container(
+                  padding: EdgeInsets.symmetric(vertical: 8), // Moins de padding
+                  color: Colors.black.withOpacity(0.85),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    children: [
+                      TextButton.icon(
+                        onPressed: () {
+                          // Naviguer vers le sommaire (فهرس)
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => MyApp()));
+                        },
+                        icon: Icon(FlutterIslamicIcons.solidQuran2, color: Colors.white),
+                        label: Text('فهرس', style: TextStyle(color: Colors.white, fontSize: 16)),
+                      ),
+                      TextButton.icon(
+                        onPressed: () {
+                          // Naviguer vers la liste des Hizb
+                          //Navigator.push(context, MaterialPageRoute(builder: (context) => HizbListPage()));
+                        },
+                        icon: Icon(Icons.timelapse, color: Colors.white),
+                        label: Text('الأحزاب', style: TextStyle(color: Colors.white, fontSize: 16)),
+                      ),
+                      TextButton.icon(
+                        onPressed: () {
+                          // Naviguer vers la page des Douas
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => DouaKhatmoulKhouran("دعاء ختم القرآن")));
+                        },
+                        icon: Icon(FlutterIslamicIcons.prayer, color: Colors.white),
+                        label: Text('دعاء', style: TextStyle(color: Colors.white, fontSize: 16)),
+                      ),
+                      TextButton.icon(
+                        onPressed: () {
+                          // Naviguer ou afficher une alerte pour faire un don
+                          showDialog(
+                            context: context,
+                            builder: (_) => AlertDialog(
+                              title: Text('Support'),
+                              content: Text('Merci de votre intention de soutenir ce travail.'),
+                              actions: [
+                                TextButton(
+                                  onPressed: () => Navigator.pop(context),
+                                  child: Text('Fermer'),
+                                ),
+                              ],
+                            ),
+                          );
+                        },
+                        icon: Icon(Icons.volunteer_activism, color: Colors.white),
+                        label: Text('تبرع', style: TextStyle(color: Colors.white, fontSize: 16)),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+
+            if (_showMenu)
+              Positioned(
+                bottom: 0, // Collé à la bottom navigation bar
+                left: 0,
+                right: 0,
+                child: Container(
+                  padding: EdgeInsets.symmetric(vertical: 8), // Moins de padding
+                  color: Colors.black.withOpacity(0.85),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    children: [
+                      TextButton.icon(
+                        onPressed: () {
+                          // Naviguer vers le sommaire (فهرس)
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => MyApp()));
+                        },
+                        icon: Icon(FlutterIslamicIcons.solidQuran2, color: Colors.white),
+                        label: Text('فهرس', style: TextStyle(color: Colors.white, fontSize: 16)),
+                      ),
+                      TextButton.icon(
+                        onPressed: () {
+                          // Naviguer vers la liste des Hizb
+                          //Navigator.push(context, MaterialPageRoute(builder: (context) => HizbListPage()));
+                        },
+                        icon: Icon(Icons.timelapse, color: Colors.white),
+                        label: Text('الأحزاب', style: TextStyle(color: Colors.white, fontSize: 16)),
+                      ),
+                      TextButton.icon(
+                        onPressed: () {
+                          // Naviguer vers la page des Douas
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => DouaKhatmoulKhouran("دعاء ختم القرآن")));
+                        },
+                        icon: Icon(FlutterIslamicIcons.prayer, color: Colors.white),
+                        label: Text('دعاء', style: TextStyle(color: Colors.white, fontSize: 16)),
+                      ),
+                      TextButton.icon(
+                        onPressed: () {
+                          // Naviguer ou afficher une alerte pour faire un don
+                          showDialog(
+                            context: context,
+                            builder: (_) => AlertDialog(
+                              title: Text('Support'),
+                              content: Text('Merci de votre intention de soutenir ce travail.'),
+                              actions: [
+                                TextButton(
+                                  onPressed: () => Navigator.pop(context),
+                                  child: Text('Fermer'),
+                                ),
+                              ],
+                            ),
+                          );
+                        },
+                        icon: Icon(Icons.volunteer_activism, color: Colors.white),
+                        label: Text('تبرع', style: TextStyle(color: Colors.white, fontSize: 16)),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+
+            if (_showMenu)
+              Positioned(
+                bottom: 0, // Collé à la bottom navigation bar
+                left: 0,
+                right: 0,
+                child: Container(
+                  padding: EdgeInsets.symmetric(vertical: 8), // Moins de padding
+                  color: Colors.black.withOpacity(0.85),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    children: [
+                      TextButton.icon(
+                        onPressed: () {
+                          // Naviguer vers le sommaire (فهرس)
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => MyApp()));
+                        },
+                        icon: Icon(FlutterIslamicIcons.solidQuran2, color: Colors.white),
+                        label: Text('فهرس', style: TextStyle(color: Colors.white, fontSize: 16)),
+                      ),
+                      TextButton.icon(
+                        onPressed: () {
+                          // Naviguer vers la liste des Hizb
+                          //Navigator.push(context, MaterialPageRoute(builder: (context) => HizbListPage()));
+                        },
+                        icon: Icon(Icons.timelapse, color: Colors.white),
+                        label: Text('الأحزاب', style: TextStyle(color: Colors.white, fontSize: 16)),
+                      ),
+                      TextButton.icon(
+                        onPressed: () {
+                          // Naviguer vers la page des Douas
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => DouaKhatmoulKhouran("دعاء ختم القرآن")));
+                        },
+                        icon: Icon(FlutterIslamicIcons.prayer, color: Colors.white),
+                        label: Text('دعاء', style: TextStyle(color: Colors.white, fontSize: 16)),
+                      ),
+                      TextButton.icon(
+                        onPressed: () {
+                          // Naviguer ou afficher une alerte pour faire un don
+                          showDialog(
+                            context: context,
+                            builder: (_) => AlertDialog(
+                              title: Text('Support'),
+                              content: Text('Merci de votre intention de soutenir ce travail.'),
+                              actions: [
+                                TextButton(
+                                  onPressed: () => Navigator.pop(context),
+                                  child: Text('Fermer'),
+                                ),
+                              ],
+                            ),
+                          );
+                        },
+                        icon: Icon(Icons.volunteer_activism, color: Colors.white),
+                        label: Text('تبرع', style: TextStyle(color: Colors.white, fontSize: 16)),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+
+            if (_showMenu)
+              Positioned(
+                bottom: 0, // Collé à la bottom navigation bar
+                left: 0,
+                right: 0,
+                child: Container(
+                  padding: EdgeInsets.symmetric(vertical: 8), // Moins de padding
+                  color: Colors.black.withOpacity(0.85),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    children: [
+                      TextButton.icon(
+                        onPressed: () {
+                          // Naviguer vers le sommaire (فهرس)
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => MyApp()));
+                        },
+                        icon: Icon(FlutterIslamicIcons.solidQuran2, color: Colors.white),
+                        label: Text('فهرس', style: TextStyle(color: Colors.white, fontSize: 16)),
+                      ),
+                      TextButton.icon(
+                        onPressed: () {
+                          // Naviguer vers la liste des Hizb
+                          //Navigator.push(context, MaterialPageRoute(builder: (context) => HizbListPage()));
+                        },
+                        icon: Icon(Icons.timelapse, color: Colors.white),
+                        label: Text('الأحزاب', style: TextStyle(color: Colors.white, fontSize: 16)),
+                      ),
+                      TextButton.icon(
+                        onPressed: () {
+                          // Naviguer vers la page des Douas
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => DouaKhatmoulKhouran("دعاء ختم القرآن")));
+                        },
+                        icon: Icon(FlutterIslamicIcons.prayer, color: Colors.white),
+                        label: Text('دعاء', style: TextStyle(color: Colors.white, fontSize: 16)),
+                      ),
+                      TextButton.icon(
+                        onPressed: () {
+                          // Naviguer ou afficher une alerte pour faire un don
+                          showDialog(
+                            context: context,
+                            builder: (_) => AlertDialog(
+                              title: Text('Support'),
+                              content: Text('Merci de votre intention de soutenir ce travail.'),
+                              actions: [
+                                TextButton(
+                                  onPressed: () => Navigator.pop(context),
+                                  child: Text('Fermer'),
+                                ),
+                              ],
+                            ),
+                          );
+                        },
+                        icon: Icon(Icons.volunteer_activism, color: Colors.white),
+                        label: Text('تبرع', style: TextStyle(color: Colors.white, fontSize: 16)),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+
+            if (_showMenu)
+              Positioned(
+                bottom: 0, // Collé à la bottom navigation bar
+                left: 0,
+                right: 0,
+                child: Container(
+                  padding: EdgeInsets.symmetric(vertical: 8), // Moins de padding
+                  color: Colors.black.withOpacity(0.85),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    children: [
+                      TextButton.icon(
+                        onPressed: () {
+                          // Naviguer vers le sommaire (فهرس)
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => MyApp()));
+                        },
+                        icon: Icon(FlutterIslamicIcons.solidQuran2, color: Colors.white),
+                        label: Text('فهرس', style: TextStyle(color: Colors.white, fontSize: 16)),
+                      ),
+                      TextButton.icon(
+                        onPressed: () {
+                          // Naviguer vers la liste des Hizb
+                          //Navigator.push(context, MaterialPageRoute(builder: (context) => HizbListPage()));
+                        },
+                        icon: Icon(Icons.timelapse, color: Colors.white),
+                        label: Text('الأحزاب', style: TextStyle(color: Colors.white, fontSize: 16)),
+                      ),
+                      TextButton.icon(
+                        onPressed: () {
+                          // Naviguer vers la page des Douas
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => DouaKhatmoulKhouran("دعاء ختم القرآن")));
+                        },
+                        icon: Icon(FlutterIslamicIcons.prayer, color: Colors.white),
+                        label: Text('دعاء', style: TextStyle(color: Colors.white, fontSize: 16)),
+                      ),
+                      TextButton.icon(
+                        onPressed: () {
+                          // Naviguer ou afficher une alerte pour faire un don
+                          showDialog(
+                            context: context,
+                            builder: (_) => AlertDialog(
+                              title: Text('Support'),
+                              content: Text('Merci de votre intention de soutenir ce travail.'),
+                              actions: [
+                                TextButton(
+                                  onPressed: () => Navigator.pop(context),
+                                  child: Text('Fermer'),
+                                ),
+                              ],
+                            ),
+                          );
+                        },
+                        icon: Icon(Icons.volunteer_activism, color: Colors.white),
+                        label: Text('تبرع', style: TextStyle(color: Colors.white, fontSize: 16)),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+
+            if (_showMenu)
+              Positioned(
+                bottom: 0, // Collé à la bottom navigation bar
+                left: 0,
+                right: 0,
+                child: Container(
+                  padding: EdgeInsets.symmetric(vertical: 8), // Moins de padding
+                  color: Colors.black.withOpacity(0.85),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    children: [
+                      TextButton.icon(
+                        onPressed: () {
+                          // Naviguer vers le sommaire (فهرس)
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => MyApp()));
+                        },
+                        icon: Icon(FlutterIslamicIcons.solidQuran2, color: Colors.white),
+                        label: Text('فهرس', style: TextStyle(color: Colors.white, fontSize: 16)),
+                      ),
+                      TextButton.icon(
+                        onPressed: () {
+                          // Naviguer vers la liste des Hizb
+                          //Navigator.push(context, MaterialPageRoute(builder: (context) => HizbListPage()));
+                        },
+                        icon: Icon(Icons.timelapse, color: Colors.white),
+                        label: Text('الأحزاب', style: TextStyle(color: Colors.white, fontSize: 16)),
+                      ),
+                      TextButton.icon(
+                        onPressed: () {
+                          // Naviguer vers la page des Douas
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => DouaKhatmoulKhouran("دعاء ختم القرآن")));
+                        },
+                        icon: Icon(FlutterIslamicIcons.prayer, color: Colors.white),
+                        label: Text('دعاء', style: TextStyle(color: Colors.white, fontSize: 16)),
+                      ),
+                      TextButton.icon(
+                        onPressed: () {
+                          // Naviguer ou afficher une alerte pour faire un don
+                          showDialog(
+                            context: context,
+                            builder: (_) => AlertDialog(
+                              title: Text('Support'),
+                              content: Text('Merci de votre intention de soutenir ce travail.'),
+                              actions: [
+                                TextButton(
+                                  onPressed: () => Navigator.pop(context),
+                                  child: Text('Fermer'),
+                                ),
+                              ],
+                            ),
+                          );
+                        },
+                        icon: Icon(Icons.volunteer_activism, color: Colors.white),
+                        label: Text('تبرع', style: TextStyle(color: Colors.white, fontSize: 16)),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+
+            if (_showMenu)
+              Positioned(
+                bottom: 0, // Collé à la bottom navigation bar
+                left: 0,
+                right: 0,
+                child: Container(
+                  padding: EdgeInsets.symmetric(vertical: 8), // Moins de padding
+                  color: Colors.black.withOpacity(0.85),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    children: [
+                      TextButton.icon(
+                        onPressed: () {
+                          // Naviguer vers le sommaire (فهرس)
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => MyApp()));
+                        },
+                        icon: Icon(FlutterIslamicIcons.solidQuran2, color: Colors.white),
+                        label: Text('فهرس', style: TextStyle(color: Colors.white, fontSize: 16)),
+                      ),
+                      TextButton.icon(
+                        onPressed: () {
+                          // Naviguer vers la liste des Hizb
+                          //Navigator.push(context, MaterialPageRoute(builder: (context) => HizbListPage()));
+                        },
+                        icon: Icon(Icons.timelapse, color: Colors.white),
+                        label: Text('الأحزاب', style: TextStyle(color: Colors.white, fontSize: 16)),
+                      ),
+                      TextButton.icon(
+                        onPressed: () {
+                          // Naviguer vers la page des Douas
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => DouaKhatmoulKhouran("دعاء ختم القرآن")));
+                        },
+                        icon: Icon(FlutterIslamicIcons.prayer, color: Colors.white),
+                        label: Text('دعاء', style: TextStyle(color: Colors.white, fontSize: 16)),
+                      ),
+                      TextButton.icon(
+                        onPressed: () {
+                          // Naviguer ou afficher une alerte pour faire un don
+                          showDialog(
+                            context: context,
+                            builder: (_) => AlertDialog(
+                              title: Text('Support'),
+                              content: Text('Merci de votre intention de soutenir ce travail.'),
+                              actions: [
+                                TextButton(
+                                  onPressed: () => Navigator.pop(context),
+                                  child: Text('Fermer'),
+                                ),
+                              ],
+                            ),
+                          );
+                        },
+                        icon: Icon(Icons.volunteer_activism, color: Colors.white),
+                        label: Text('تبرع', style: TextStyle(color: Colors.white, fontSize: 16)),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
       floatingActionButtonLocation:
       FloatingActionButtonLocation.centerDocked,
       bottomNavigationBar: BottomAppBar(
